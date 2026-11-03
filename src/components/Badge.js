@@ -3,7 +3,6 @@ import { Ionicons } from '@expo/vector-icons';
 import useColors from '../theme/useColors';
 import { FONTS } from '../theme/fonts';
 
-// Figma: Badge (type = bestseller | baru | vegan | habis)
 export default function Badge({ type = 'bestseller', style }) {
   const colors = useColors();
   const TYPES = {

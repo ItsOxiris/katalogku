@@ -3,9 +3,6 @@ import { Ionicons } from '@expo/vector-icons';
 import useColors from '../theme/useColors';
 import { FONTS } from '../theme/fonts';
 
-// Figma: CustomInput (state = default | error)
-// Field tinggi 50, radius 12, padding 14. icon = nama Ionicons di kiri (latihan).
-// ...rest diteruskan ke TextInput (placeholder, value, onChangeText, secureTextEntry, dll).
 export default function CustomInput({ label, error, icon, style, ...rest }) {
   const colors = useColors();
 

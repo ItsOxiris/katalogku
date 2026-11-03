@@ -1,0 +1,28 @@
+const foto = (id) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=600&q=80`;
+
+export const DUMMY_PRODUCTS = [
+  { id: 1, title: 'Es Kopi Susu Gula Aren', price: 28000, category: 'kopi', rating: 4.8, stock: 120, badge: 'bestseller',
+    thumbnail: foto('photo-1517701550927-30cf4ba1dba5'),
+    description: 'Espresso pilihan, susu segar, dan manis alami gula aren. Teman sempurna untuk menikmati waktu santaimu.' },
+  { id: 2, title: 'Butter Croissant', price: 25000, category: 'snack-pastry', rating: 4.9, stock: 40, badge: 'bestseller',
+    thumbnail: foto('photo-1555507036-ab1f4038808a'),
+    description: 'Croissant berlapis mentega Prancis, renyah di luar dan lembut di dalam. Disajikan hangat.' },
+  { id: 3, title: 'Matcha Latte', price: 32000, category: 'non-kopi', rating: 4.8, stock: 60, badge: 'baru',
+    thumbnail: foto('photo-1515823064-d6e0c04616a7'),
+    description: 'Matcha Uji kualitas premium dengan susu segar. Bisa diganti oat milk.' },
+  { id: 4, title: 'Avocado Toast', price: 38000, category: 'makanan-berat', rating: 4.7, stock: 25, badge: 'vegan',
+    thumbnail: foto('photo-1525351484163-7529414344d8'),
+    description: 'Roti sourdough panggang, alpukat segar, tomat ceri, dan taburan biji-bijian.' },
+  { id: 5, title: 'Cappuccino', price: 30000, category: 'kopi', rating: 4.6, stock: 80,
+    thumbnail: foto('photo-1572442388796-11668a67e53d'),
+    description: 'Espresso dengan susu panas dan busa susu lembut di atasnya.' },
+  { id: 6, title: 'Chocolate Brownie', price: 27000, category: 'snack-pastry', rating: 4.5, stock: 0,
+    thumbnail: foto('photo-1606313564200-e75d5e30476c'),
+    description: 'Brownie cokelat pekat yang fudgy, dengan potongan kacang kenari.' },
+  { id: 7, title: 'Creamy Mushroom Pasta', price: 45000, category: 'makanan-berat', rating: 4.6, stock: 30,
+    thumbnail: foto('photo-1473093295043-cdd812d0e601'),
+    description: 'Fettuccine dengan saus krim jamur, parmesan, dan sedikit lada hitam.' },
+  { id: 8, title: 'Iced Chocolate', price: 29000, category: 'non-kopi', rating: 4.4, stock: 50,
+    thumbnail: foto('photo-1572490122747-3968b75cc699'),
+    description: 'Cokelat premium dingin dengan susu segar. Tanpa kafein.' },
+];

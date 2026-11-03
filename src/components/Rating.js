@@ -3,8 +3,6 @@ import { Ionicons } from '@expo/vector-icons';
 import useColors from '../theme/useColors';
 import { FONTS } from '../theme/fonts';
 
-// Tantangan Modul 3: bintang sesuai nilai rating 0–5.
-// compact = 1 bintang + angka (dipakai di kartu menu, sesuai Figma).
 export default function Rating({ value = 0, count, size = 12, compact = false }) {
   const colors = useColors();
   const nilai = Math.max(0, Math.min(5, Number(value) || 0));

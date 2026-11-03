@@ -6,7 +6,6 @@ import { formatRupiah } from '../utils/format';
 import Badge from './Badge';
 import Rating from './Rating';
 
-// Figma: ProductCard (radius 12, foto 1:1, body padding 12)
 export default function Card({
   title,
   price,
@@ -14,7 +13,7 @@ export default function Card({
   category,
   rating,
   badge,
-  discount,            // latihan: angka persen, mis. 10 -> label "-10%"
+  discount,
   isFavorite = false,
   soldOut = false,
   onPress,

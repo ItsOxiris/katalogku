@@ -4,11 +4,9 @@ import { Ionicons } from '@expo/vector-icons';
 import useColors from '../theme/useColors';
 import { FONTS } from '../theme/fonts';
 
-// Figma: HeaderBar (dipakai di Masuk, Daftar, Pesanan, Status Pesanan)
-// Tombol kembali hanya muncul jika props onBack dikirim.
 export default function HeaderBar({ title, subtitle, onBack, rightIcon = 'cafe-outline', onRightPress }) {
   const colors = useColors();
-  const insets = useSafeAreaInsets(); // jarak aman dari notch/status bar
+  const insets = useSafeAreaInsets();
 
   return (
     <View

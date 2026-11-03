@@ -3,8 +3,6 @@ import { Ionicons } from '@expo/vector-icons';
 import useColors from '../theme/useColors';
 import { FONTS } from '../theme/fonts';
 
-// Figma: Button (variant = primary | outline | danger)
-// Tinggi 48, radius 12, padding horizontal 20, label Poppins Medium 14.
 export default function Button({
   title,
   onPress,
